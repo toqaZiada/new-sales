@@ -1,0 +1,75 @@
+{
+    "CART": {
+        "R2_train": 0.9894932734912302,
+        "R2_test": 0.9871715014868777,
+        "MAE_train": 2.064824387010239,
+        "MAE_test": 2.1747372616958605,
+        "best_params": {
+            "CART__max_depth": "int",
+            "CART__min_samples_leaf": "int",
+            "CART__min_samples_split": "int",
+            "Scaler": "StandardScaler"
+        }
+    },
+    "RF": {
+        "R2_train": 0.9895173725708106,
+        "R2_test": 0.9872007075979412,
+        "MAE_train": 2.065068254746512,
+        "MAE_test": 2.1704327728775663,
+        "best_params": {
+            "RF__max_depth": "NoneType",
+            "RF__min_samples_leaf": "int",
+            "RF__min_samples_split": "int",
+            "RF__n_estimators": "int",
+            "Scaler": "StandardScaler"
+        }
+    },
+    "LR": {
+        "R2_train": 0.9742826942609057,
+        "R2_test": 0.9720764742034178,
+        "MAE_train": 4.381631645836894,
+        "MAE_test": 4.548107129849833,
+        "best_params": {
+            "LR__fit_intercept": "bool",
+            "Scaler": "StandardScaler"
+        }
+    },
+    "SVM": {
+        "R2_train": 0.9888289962563789,
+        "R2_test": 0.9861767455943037,
+        "MAE_train": 1.9766244954847338,
+        "MAE_test": 2.1128673862278093,
+        "best_params": {
+            "SVM__C": "int",
+            "SVM__gamma": "str",
+            "SVM__kernel": "str",
+            "Scaler": "MinMaxScaler"
+        }
+    },
+    "KNN": {
+        "R2_train": 0.9882818749328194,
+        "R2_test": 0.9859563620862078,
+        "MAE_train": 2.1173360494157203,
+        "MAE_test": 2.221931377644624,
+        "best_params": {
+            "KNN__n_neighbors": "int",
+            "KNN__p": "int",
+            "KNN__weights": "str",
+            "Scaler": "MinMaxScaler"
+        }
+    },
+    "XGB": {
+        "R2_train": 0.9895223098367583,
+        "R2_test": 0.9871604665197494,
+        "MAE_train": 2.059866602590609,
+        "MAE_test": 2.1687814263693874,
+        "best_params": {
+            "Scaler": "StandardScaler",
+            "XGB__colsample_bytree": "float",
+            "XGB__learning_rate": "float",
+            "XGB__max_depth": "int",
+            "XGB__n_estimators": "int",
+            "XGB__subsample": "float"
+        }
+    }
+}
